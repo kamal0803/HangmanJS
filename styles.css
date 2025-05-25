@@ -1,0 +1,56 @@
+body {
+    background-color: #001f3f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+       
+}
+
+.grid-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(13, 50px);
+    grid-template-rows: repeat(2, 50px);
+    margin-top: 2.5rem;
+}
+
+.grid-container > * {
+    background-color: orange;
+}
+
+.flex-container {
+    margin-top: 1rem;
+    gap: 2rem;
+    display: flex;
+    font-size: 96px;
+    font-weight: bold;
+    color: yellow;
+}
+
+img {
+    margin-top: 2.5rem;
+}
+
+.right-border {
+    border: 5px solid green;
+}
+
+.wrong-border {
+    border: 5px solid red;
+}
+
+body.game-over {
+    background-color: red;
+}
+
+h1.end-game {
+    color: white;
+    font-size: 5rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+
+}
