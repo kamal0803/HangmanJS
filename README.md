@@ -1,1 +1,1 @@
-Hangman game built in JavaScript
+Hangman game built using vanilla JavaScript
